@@ -1,0 +1,10 @@
+What does the following function return when called with `calc(4)`?
+
+```python
+def calc(n):
+    if n <= 1:
+        return 1
+    return n + calc(n - 1)
+```
+---
+10
